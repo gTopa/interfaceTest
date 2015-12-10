@@ -14,5 +14,9 @@ public class Circle extends Shape{
     public String toString(){
 	return "Circle "+getName()+" with radius of "+getRadius();
     }
+    
+    public double getArea(){
+	return Math.pow(getRadius(),2)*Math.PI;
+    }
 
 }

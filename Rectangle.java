@@ -19,4 +19,8 @@ public class Rectangle extends Shape{
     public String toString(){
 	return "Rectangle "+getName()+" that is "+length+" by "+width;
     }
+
+    public double getArea(){
+	return getWidth()*getLength();
+    }
 }
